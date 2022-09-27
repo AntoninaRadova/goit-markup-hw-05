@@ -75,11 +75,11 @@ ul {
 
 .link,
 .header-link {
-    /* display: block;
-        color: currentColor; */
+    /* display: block;*/
+    color: currentColor; 
     position: relative;
     text-decoration: none;
-    color: var(--color-text-primary);
+/*     color: var(--color-text-primary); */
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
