@@ -39,7 +39,7 @@
         <!-- ========== Hero Section ========== -->
         <section class="hero centered overlay">
             <h1 class="hero-text">Ефективні рішення для вашого бізнесу</h1>
-            <button type="button" class="hero-button open-modal" data-modal-open>Замовити послугу</button>
+            <button type="button" class="hero-button" data-modal-open>Замовити послугу</button>
         </section>
         <!-- ========== Section Activity ========== -->
         <section class="section no-padding">
@@ -372,7 +372,11 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button type="button" class="close-btn" data-modal-close>X</button>
+            <button type="button" class="close-btn" data-modal-close>
+                <svg viewBox="0 0 32 32" width="11" height="11" class="icon-close">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
         </div>
     </div>
     <script src="./js/modal.js"></script>
