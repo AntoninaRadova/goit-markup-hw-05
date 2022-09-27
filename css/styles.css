@@ -75,7 +75,7 @@ ul {
 
 .link,
 .header-link {
-    /* display: block;*/
+    display: block;
     color: currentColor; 
     position: relative;
     text-decoration: none;
