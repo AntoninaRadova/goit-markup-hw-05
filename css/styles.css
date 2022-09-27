@@ -90,6 +90,7 @@ ul {
 .link:focus,
 .link.current {
     color: var(--link-color);
+    fill: var(--link-color);
 }
 
 .site-nav {
